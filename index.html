@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div class="positive">
+        Type a number and click to see whether it is positive!
+        <p>
+            <input type="text" name="posify" id="posify" size="3">
+            <button type="submit" onclick="isPositive(document.getElementById('posify').value)">Positivify!</button>
+            <div id="answa"></div>
+        </p>
+    </div>
+    <div class="capitals">
+        Type a state abbreviation to see the capital city!
+        <p>
+            <input type="text" name="capificate" id="capificate" size="2">
+            <button type="submit" onclick="getCapital(document.getElementById('capificate').value)">Capitalize!</button>
+            <div id="stateCap"></div>
+        </p>
+    </div>
+    <div class="taxes">
+        Input an income
+        <p>
+            <input type="text" name="income" id="income" size="2">
+            <button type="submit" onclick="calculateTaxes(document.getElementById('income').value)">Taxicate!</button>
+            <div id="tax"></div>
+        </p>
+    </div>
+    <div class="fizzBuzz">
+        <p>
+            <button type="submit" onclick="fizzBuzz()">Fizzify!</button>
+            <div id="fizzSpot">
+
+            </div>
+        </p>
+    </div>
+</body>
+</html>

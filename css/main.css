@@ -1,0 +1,20 @@
+body {
+  background: #EDF4F4;
+  display: flex; }
+
+.positive {
+  justify-content: space-around;
+  align-items: center;
+  border: 3px double black; }
+
+.capitals {
+  justify-content: space-around;
+  align-items: center;
+  border: 3px double black; }
+
+.taxes {
+  justify-content: space-around;
+  align-items: center;
+  border: 3px double black; }
+
+/*# sourceMappingURL=main.css.map */

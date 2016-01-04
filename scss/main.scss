@@ -1,0 +1,23 @@
+@import 'partials/color';
+@import "partials/font";
+
+body{
+    background: $bgwhite;
+    display: flex;
+}
+.positive{
+
+    justify-content: space-around;
+    align-items: center;
+    border: 3px double black;
+}
+.capitals{
+    justify-content: space-around;
+    align-items: center;
+    border: 3px double black;
+}
+.taxes{
+    justify-content: space-around;
+    align-items: center;
+    border: 3px double black;
+}

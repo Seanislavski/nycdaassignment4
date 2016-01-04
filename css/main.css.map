@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAI;EACA,UAAU,ECJJ,OAAO;EDKb,OAAO,EAAE,IAAI;;AAEjB,SAAS;EAEL,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,gBAAgB;;AAE5B,SAAS;EACL,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,gBAAgB;;AAE5B,MAAM;EACF,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,gBAAgB",
+"sources": ["../scss/main.scss","../scss/partials/_color.scss"],
+"names": [],
+"file": "main.css"
+}
