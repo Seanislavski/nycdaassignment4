@@ -11,6 +11,7 @@
         Type a number and click to see whether it is positive!
         <p>
             <input type="text" name="posify" id="posify" size="3">
+            <p>
             <button type="submit" onclick="isPositive(document.getElementById('posify').value)">Positivify!</button>
             <div id="answa"></div>
         </p>
@@ -19,6 +20,7 @@
         Type a state abbreviation to see the capital city!
         <p>
             <input type="text" name="capificate" id="capificate" size="2">
+            <p>
             <button type="submit" onclick="getCapital(document.getElementById('capificate').value)">Capitalize!</button>
             <div id="stateCap"></div>
         </p>
@@ -27,6 +29,7 @@
         Input an income
         <p>
             <input type="text" name="income" id="income" size="2">
+            <p>
             <button type="submit" onclick="calculateTaxes(document.getElementById('income').value)">Taxicate!</button>
             <div id="tax"></div>
         </p>
@@ -34,8 +37,9 @@
     <div class="fizzBuzz">
         <p>
             <button type="submit" onclick="fizzBuzz()">Fizzify!</button>
-            <div id="fizzSpot">
-
+            <div>
+                <ul id="fizzSpot">
+                </ul>
             </div>
         </p>
     </div>

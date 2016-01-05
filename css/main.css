@@ -1,20 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 body {
   background: #EDF4F4;
-  display: flex; }
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; }
+
+div {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
+  padding: 5px;
+  font-family: Playfair Display; }
+
+button {
+  font-size: 18px;
+  background: #62C8E5;
+  color: #CD0F0F;
+  font-weight: bold; }
 
 .positive {
-  justify-content: space-around;
   align-items: center;
-  border: 3px double black; }
+  border: 3px double #363636;
+  box-shadow: 4px 4px #737373;
+  background: #B6CFD6; }
 
 .capitals {
   justify-content: space-around;
   align-items: center;
-  border: 3px double black; }
+  border: 3px double #363636;
+  box-shadow: 4px 4px #737373;
+  background: #B6CFD6; }
 
 .taxes {
   justify-content: space-around;
   align-items: center;
-  border: 3px double black; }
+  border: 3px double #363636;
+  box-shadow: 4px 4px #737373;
+  background: #B6CFD6; }
+
+.fizzBuzz {
+  flex: 1 1 auto;
+  align-items: center;
+  border: 3px double #363636;
+  box-shadow: 4px 4px #737373;
+  background: #B6CFD6; }
+
+#fizzSpot {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+  color: white; }
+  #fizzSpot li {
+    background: #2CB4ED;
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid #363636;
+    box-shadow: 2px 2px #737373; }
+
+#answa, #stateCap,
+#tax {
+  color: white;
+  align-items: center;
+  font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */
